@@ -1,0 +1,5 @@
+com/example/server/NoSecurityConfig.class
+com/example/server/CoffeeServiceApplication.class
+com/example/server/CoffeeRepository.class
+com/example/server/Coffee.class
+com/example/server/CoffeeController.class

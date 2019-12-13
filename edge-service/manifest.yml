@@ -1,0 +1,10 @@
+---
+applications:
+- instances: 1
+  name: edge-service
+  memory: 666M
+  path: target/edge-service-1.0-SNAPSHOT.jar
+  disk_quota: 256M
+  env:
+    SERVER_MESSAGE_NUMBER: 1
+  health-check-type: process

@@ -1,0 +1,9 @@
+---
+applications:
+- instances: 1
+  name: coffee-service
+  memory: 660M
+  path: target/coffee-service-1.0-SNAPSHOT.jar
+  disk_quota: 256M
+  env:
+  health-check-type: process
